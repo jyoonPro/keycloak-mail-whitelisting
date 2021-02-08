@@ -1,1 +1,1 @@
-net.micedre.keycloak.registration.RegistrationProfileWithMailDomainCheck
+com.poapper.keycloak.registration.RegistrationProfileEmailValidation
