@@ -56,7 +56,7 @@ public class RegistrationProfileEmailValidation extends RegistrationProfile impl
       // Checks for characters in email names
       ProviderConfigProperty disallowedChar = new ProviderConfigProperty();
       disallowedChar.setName("disallowedChar");
-      disallowedChar.setLabel("Disallowed characters in email name.");
+      disallowedChar.setLabel("Disallowed characters in email name");
       disallowedChar.setType(ProviderConfigProperty.MULTIVALUED_STRING_TYPE);
       disallowedChar.setHelpText("List disallowed characters (or strings). Example: \".\", \"-\", etc.");
       CONFIG_PROPERTIES.add(disallowedChar);
